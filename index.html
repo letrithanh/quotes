@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Quotes</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="css/my-style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bulma.css" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+        <div class="box main-div centered">
+
+            <div class="div-title has-text-centered">
+                <h1>Random Quotes</h1>
+            </div>
+
+            <div class="div-quote">
+                <div class="div-author-said has-text-left" id="author-said">
+                    Click Random Button, Please ^^
+                </div>
+
+                <div class="div-author has-text-right" id="author">
+
+                </div>
+
+                <div class="div-bottom">
+                    <div class="div-share">
+                        <a href="#">
+                            <span class="icon is-medium">
+                                <i class="fa fa-facebook-square"></i>
+                            </span>
+                        </a>
+                        <a href="#">
+                            <span class="icon is-medium">
+                                <i class="fa fa-twitter-square"></i>
+                            </span>
+                        </a>
+
+                    </div>
+
+                    <div class="div-random">
+                        <a class="button" onclick="getRandomQuote()">
+                            Random
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- javascript declare below -->
+        <script type="text/javascript" src="javascript/random_quotes.js"></script>
+
+        <!-- javascript of facebook -->
+
+    </body>
+</html>

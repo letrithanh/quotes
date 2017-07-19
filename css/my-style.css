@@ -1,0 +1,80 @@
+@font-face
+{
+    font-family: "title-font";
+    src: url("../fonts/GloriaHallelujah.ttf");
+}
+
+@font-face
+{
+    font-family: "author-said-font";
+    src: url("../fonts/DancingScript-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: "author-font";
+    src: url("../fonts/ArchitectsDaughter.ttf");
+}
+
+body
+{
+
+}
+
+.main-div
+{
+    width: 60%;
+}
+
+a
+{
+    text-decoration: none;
+    color: gray !important;
+}
+
+.div-title
+{
+    font-family: title-font ,Helvetica, Arial;
+    font-size: 36px;
+}
+
+.div-quote
+{
+
+}
+
+.div-author-said
+{
+    font-family: author-said-font, "Times New Roman", Ubuntu;
+    font-size: 28px;
+}
+
+.div-author
+{
+    font-family: author-font, "Droid Sans", Roboto;
+    font-size: 20px;
+}
+
+.div-bottom
+{
+
+}
+
+.div-share
+{
+    display: inline-block;
+}
+
+.div-random
+{
+    display: inline-block;
+    float: right;
+}
+
+.centered
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
